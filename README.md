@@ -4,18 +4,14 @@ This repository contains a **Node/Express backend**, a **Python AI microservice*
 
 ## Running the Application Locally
 
-### 1. Python AI microservice
+###
 
-1. Ensure Python 3.10+ is installed.
-2. Create a virtual environment and install requirements:
    ```bash
-   cd backend/ai_service
+   cd backend
   
    ```
 3. Place your trained `facial_expression_model.h5` inside `backend/session.controller.js` (or the service will return dummy values).
-4. Launch the service:
-   ```bash
-   python app.py
+
    ```
    It listens on port `8000` by default.
 
