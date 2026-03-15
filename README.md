@@ -71,4 +71,4 @@ The front-end `analyzeExpression` helper already sends camera frames to `/api/ex
 - Ensure the Python service is running before starting a session, or the backend will respond with a 502 error.
 - You may keep `AI_SERVICE_URL` pointed to a remote service (e.g. a HuggingFace space) if you prefer not to run it locally.
 
-Happy coding! 🎯
+Happy coding!
